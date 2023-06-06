@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./main.css">
+    <title>Functional Gellery</title>
+</head>
+<body>
+    <div class="lightbox">
+        <div class="wrapper">
+            <header>
+                <div class="photographer">
+                    <i class="fa-solid fa-camera"></i>
+                    <span></span>
+                </div>
+                <div class="buttons">
+                    <i class="fa-solid fa-download"></i>
+                    <i class="fa-solid fa-x"></i>
+                </div>
+            </header>
+            <div class="preview-image">
+                <div class="img">
+                    <img src="" alt="Just Image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Search Section Start -->
+    <section class="search">
+        <img src="./images/search-img.jpg" alt="Just Image">
+        <div class="content container">
+            <h1>Image Gallery with Javascript</h1>
+            <p>Search and download any images within a second</p>
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search images">
+            </div>
+        </div>
+    </section>
+    <!-- Search Section End-->
+
+    <!-- Main Section Start-->
+    <section class="gallery container">
+        <ul class="images"></ul>
+        <button class="load-more">Load More</button>
+    </section>
+    <!-- Main Section End-->
+
+    <script src="./app.js" defer></script>
+</body>
+</html>
